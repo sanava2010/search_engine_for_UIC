@@ -12,7 +12,7 @@ The user should run the main.py file.
 2) If the user wants to scrape more documents, the following command should be run from the command line where the command line is opened in spiders folder.
 'scrapy crawl uic_crawler -o output.json'
 3) Move the output.json file to the same location as the main.py file.
-4) Run preprocessing.py file to calculate the inverted index and generate the required pickle files. 
+4) Run precalculations.py file to calculate the inverted index and generate the required pickle files. 
 5) Run main.py
 
 
